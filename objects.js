@@ -1,12 +1,11 @@
 var playlist = new Object();
 var playlist = new Object({ beatles: 'Hey Jude' })
 
-function updatePlaylist (obj,artist,song) {
-Object.assign ({obj}, {artist,song});
-  return playlist;
+function updatePlaylist(playlist, artistName, songTitle) {
+return Object.assign ({playlist}, {artistName , songTitle});
 }
 
-function removeFromPlaylist (obj,artist) {
-Delete obj.artist;
+function removeFromPlaylist(playlist, artistName) {
+Delete playlist.artistName;
   return playlist;
 }
