@@ -1,4 +1,4 @@
-var playlist = {  
+var playlist = {
   Beatles: 'submarine',
   'Led Zeppelin': 'Ramble On'
  }
